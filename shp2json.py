@@ -4,9 +4,6 @@ import sys
 import json
 import argparse
 import fiona
-import shapely
-from shapely.geometry import shape
-from shapely.wkt import dumps, loads
 from pyproj import Proj, transform
 
 

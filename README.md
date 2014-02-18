@@ -2,6 +2,10 @@
 
 Converts ESRI Shapefile to a WGS84 GeoJSON file.
 
+## Requirements
+
+* Fiona (pip install fiona)
+* PyPROJ (pip install pyproj)
 
 ## How to use
 
