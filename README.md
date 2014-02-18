@@ -21,7 +21,7 @@ Converts ESRI Shapefile to a WGS84 GeoJSON file.
   		-h, --help  show this help message and exit
   		-e          Encode geojson geometry using the encoded polyline algorithm.
 
-	shp2json Neighbourhoods.shp neighbourhoods.geojson
+	shp2json.py Neighbourhoods.shp neighbourhoods.geojson
 	
 	cat neighbourhoods.geojson
 	
@@ -29,7 +29,7 @@ Converts ESRI Shapefile to a WGS84 GeoJSON file.
 	
 Or if you want to apply the Encoded Polyline Algorithm
 	
-	shp2json -e Neighbourhoods.shp neighbourhoods.egeojson
+	shp2json.py -e Neighbourhoods.shp neighbourhoods.egeojson
 	
 	cat neighbourhoods.egeojson
 	
